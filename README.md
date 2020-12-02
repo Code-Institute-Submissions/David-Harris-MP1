@@ -9,7 +9,7 @@ I've built this website for the purpose of education and sharing of free informa
 - As a user I want a location to reference for information for beach walks.
 - As the business & website owner I want a location where I can share built up knowledge and grow a community of likeminded people to share information, build and grow larger to eventually organise group walks & activities.
 
-I have uploaded the PDF version of my wireframes for the website design. The document can be via the downloaded link here: [Wireframe PDF Format](https://c768da0b-aefb-4154-8cb2-7219f3f9b44b.ws-eu01.gitpod.io/files/download/?id=40e78b75-4b84-4917-9aa9-d4e0cb782416)
+I have uploaded the PDF version of my wireframes for the website design. The document can be via the downloaded link here: [Wireframe PDF Format](/workspace/david-harris-mp1/assets/wireframes/david-harris-milestone-project-1-wireframes.pdf)
 
 ## Features
 
@@ -22,11 +22,11 @@ List of planned and included features:
  
 ## Technologies Used
 
-- [HTML] (https://en.wikipedia.org/wiki/HTML)
+- [HTML] https://en.wikipedia.org/wiki/HTML
     - This project uses HTML for the basic structure of the data.
 
-- [CSS] (https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- [CSS] https://en.wikipedia.org/wiki/Cascading_Style_Sheets
     - This project uses CSS for applying custom styles to the HTML.
 
-- [Bootstrap] (https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)
+- [Bootstrap] https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework
     - This project uses the Bootstrap framework to enable some handy tools to quickly build up and assist with a mobile first designed website.
