@@ -9,8 +9,7 @@ I've built this website for the purpose of education and sharing of free informa
 - As a user I want a location to reference for information for beach walks.
 - As the business & website owner I want a location where I can share built up knowledge and grow a community of likeminded people to share information, build and grow larger to eventually organise group walks & activities.
 
-I have uploaded the PDF version of my wireframes for the website design. The document can be via the downloaded link here: [Wireframe PDF Format](/workspace/david-harris-mp1/assets/wireframes/david-harris-milestone-project-1-wireframes.pdf)
-
+I have uploaded the PDF version of my wireframes for the website design. The document can be via the downloaded link here: [Wireframe PDF Format](https://github.com/davidhuk/David-Harris-MP1/raw/master/assets/Wireframes/david-harris-milestone-project-1-wireframes.pdf)
 ## Features
 
 This is my first ever official front-end development project, so I didn't want to go overboard on technical design. I am still very early in my learning process and am putting this project together to go from a blank canvas to a completed front-end static website accessible via GitHub Pages.
