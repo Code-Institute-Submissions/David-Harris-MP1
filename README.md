@@ -1,45 +1,32 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# MP1
 
-Welcome USER_NAME,
+This is my first milestone project. The aim of this project is to demonstrate the skills that I have learnt in HTML, CSS, Bootstrap and UX design. I will also be using some Bootstrap framework.
+ 
+## UX
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+I've built this website for the purpose of education and sharing of free information. This is to allow users a place to access route information for beach walks in the south coast of England.
 
-## Gitpod Reminders
+- As a user I want a location to reference for information for beach walks.
+- As the business & website owner I want a location where I can share built up knowledge and grow a community of likeminded people to share information, build and grow larger to eventually organise group walks & activities.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+I have uploaded the PDF version of my wireframes for the website design. The document can be via the downloaded link here: [Wireframe PDF Format](https://c768da0b-aefb-4154-8cb2-7219f3f9b44b.ws-eu01.gitpod.io/files/download/?id=40e78b75-4b84-4917-9aa9-d4e0cb782416)
 
-`python3 -m http.server`
+## Features
 
-A blue button should appear to click: *Make Public*,
+This is my first ever official front-end development project, so I didn't want to go overboard on technical design. I am still very early in my learning process and am putting this project together to go from a blank canvas to a completed front-end static website accessible via GitHub Pages.
 
-Another blue button should appear to click: *Open Browser*.
+List of planned and included features:
+ - 4 Separate websites all linked together via hyperlinks
+ - Visible maps and route data for walks that is clear to read and understand for users.
+ - Ability for users to submit their own suggested walks for review and submission to the website.
+ 
+## Technologies Used
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- [HTML] (https://en.wikipedia.org/wiki/HTML)
+    - This project uses HTML for the basic structure of the data.
 
-A blue button should appear to click: *Make Public*,
+- [CSS] (https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+    - This project uses CSS for applying custom styles to the HTML.
 
-Another blue button should appear to click: *Open Browser*.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+- [Bootstrap] (https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)
+    - This project uses the Bootstrap framework to enable some handy tools to quickly build up and assist with a mobile first designed website.
