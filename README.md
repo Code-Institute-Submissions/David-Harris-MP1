@@ -12,7 +12,7 @@ I've built this website for the purpose of education and sharing of free informa
 I have uploaded both the raw version of the wirefame that was created using the software "Balsamiq Wireframes" and a readable PDF version of the wireframes. These show the planning and origonal design before I started to code the website.
 
 The documents can be via the downloaded via the links below:
-- [Wireframe .BMPR Format] (Need to add download link here once uploaded to GitHub)
+- [Wireframe .BMPR Format](https://github.com/davidhuk/David-Harris-MP1/raw/master/assets/Wireframes/david-harris-milestone-project-1-wireframes.bmpr)
 - [Wireframe .PDF Format](https://github.com/davidhuk/David-Harris-MP1/raw/master/assets/Wireframes/david-harris-milestone-project-1-wireframes.pdf)
 
 ## Features
