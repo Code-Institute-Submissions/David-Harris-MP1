@@ -1,27 +1,48 @@
+/* --------------------carousel-------------------- */
+#myCarousel {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 540px;
+}
+
+#myCarousel img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 540px;
+}
+
+.carousel-inner {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 5px;
+    position: relative;
+}
+/* --------------------carousel-------------------- */
+
 /* --------------------home-page-paragraph-------------------- */
 #home-page-paragraph {
     text-align: center;
 }
 
-#home-page-paragraph h1 {
+#home-page-paragraph h3 {
     text-decoration: underline;
 }
 /* --------------------home-page-paragraph-------------------- */
 
-/* --------------------Carousel-------------------- */
-#myCarousel img {
+/* --------------------home-page-route-links-grid-------------------- */
+#home-page-route-links-grid h5 {
+    text-decoration: underline;
+}
+
+#home-page-route-links-grid img {
     height: auto;
-    width: 100%;
-    max-height: 540px;
+    max-height: 100%;
+    width: auto;
+    max-width: 100%;
+    margin-bottom: 5px;
 }
-/* --------------------Carousel-------------------- */
-
-/* --------------------footer-------------------- */
-#footer-text {
-    float:right;
-}
-
-#social-media-icons {
-    float:right;
-}
-/* --------------------footer-------------------- */
+/* --------------------home-page-route-links-grid-------------------- */

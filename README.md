@@ -17,7 +17,7 @@ The documents can be via the downloaded via the links below:
 
 ## Features
 
-This is my first ever official front-end development project, so I didn't want to go overboard on technical design. I am still very early in my learning process and am putting this project together to go from a blank canvas to a completed front-end static website accessible via GitHub Pages.
+This is my first ever official front-end development project. I didn't want to go overboard on technical design. I am still very early in my learning process and am putting this project together to go from a blank canvas to a completed front-end static website accessible via GitHub Pages.
 
 List of planned and included features:
  - Four separate web pages all linked together via hyperlinks.
@@ -45,3 +45,7 @@ List of planned and included features:
 - bournemouth-pier.jpg - https://pixabay.com/photos/bournemouth-pier-beach-sand-travel-3990633/ - Image by <a href="https://pixabay.com/users/dimitrisvetsikas1969-1857980/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3990633">Dimitris Vetsikas</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3990633">Pixabay</a>
 - portsmouth-sunset-walk.jpg - https://pixabay.com/photos/portsmouth-ship-sun-sky-red-782873/ - Image by <a href="https://pixabay.com/users/921563-921563/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=782873">Marius Mangevicius </a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=782873">Pixabay</a>
 - brighton-pier.jpg - https://pixabay.com/photos/brighton-england-sussex-sea-pier-4577172/ - Image by <a href="https://pixabay.com/users/kidmoses-14062968/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4577172">Howard Walsh</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4577172">Pixabay</a>
+
+## Notes - Update Later
+- Used the Carousel template located here - https://getbootstrap.com/docs/4.5/examples/carousel/
+- Used the fixed top nav bar template located here - https://getbootstrap.com/docs/4.5/examples/navbar-static/
