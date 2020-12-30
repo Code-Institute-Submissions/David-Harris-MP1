@@ -42,3 +42,37 @@
     margin-bottom: 5px;
 }
 /* --------------------home-page-route-links-grid-------------------- */
+
+/* --------------------bournemouth-title-text-------------------- */
+#bournemouth-title-text h3 {
+    text-decoration: underline;
+}
+/* --------------------bournemouth-title-text-------------------- */
+
+/* --------------------google-maps-route-------------------- */
+#goole-maps-route-detail iframe {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+/* --------------------google-maps-route-------------------- */
+
+/* --------------------google-maps-parking-------------------- */
+#goole-maps-parking-detail iframe {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+}
+/* --------------------google-maps-parking-------------------- */
+
+/* --------------------user-review-grids-------------------- */
+#user-review-grids img {
+    width: auto;
+    max-width: 50%;
+    height: auto;
+    max-height: 50%;
+    border-radius: 50%;
+}
+/* --------------------user-review-grids-------------------- */
