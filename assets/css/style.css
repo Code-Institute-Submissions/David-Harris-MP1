@@ -23,17 +23,7 @@
 }
 /* --------------------carousel-------------------- */
 
-/* --------------------home-page-paragraph-------------------- */
-#home-page-paragraph h3 {
-    text-decoration: underline;
-}
-/* --------------------home-page-paragraph-------------------- */
-
 /* --------------------home-page-route-links-grid-------------------- */
-#home-page-route-links-grid h5 {
-    text-decoration: underline;
-}
-
 #home-page-route-links-grid img {
     height: auto;
     max-height: 100%;
@@ -43,11 +33,17 @@
 }
 /* --------------------home-page-route-links-grid-------------------- */
 
-/* --------------------bournemouth-title-text-------------------- */
-#bournemouth-title-text h3 {
+/* --------------------title-underline-------------------- */
+.title-underline h3 {
     text-decoration: underline;
 }
-/* --------------------bournemouth-title-text-------------------- */
+.title-underline h4 {
+    text-decoration: underline;
+}
+.title-underline h5 {
+    text-decoration: underline;
+}
+/* --------------------title-underline-------------------- */
 
 /* --------------------google-maps-route-------------------- */
 #goole-maps-route-detail iframe {
