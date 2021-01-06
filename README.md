@@ -1,4 +1,4 @@
-# MP1
+# Milestone Project 1
 
 This is my first milestone project. The aim of this project is to build at least a three-page static frontend mobile-first responsive website. I will be demonstrating the skills I have learnt in HTML, CSS, Bootstrap while considering design concepts and best practices of UX friendly design.
  
@@ -35,10 +35,10 @@ List of planned and included features:
 - [Bootstrap] https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework
     - This project uses the Bootstrap framework to enable some handy tools to quickly build up and assist with a mobile first designed website.
 
-## Media
+# Media
 
- All images that I used in this project were free to use. I aquired  all the images for this project from from the website https://pixabay.com/. Full licence details can be found here - https://pixabay.com/service/license/
-
+## Images
+ All images that I used in this project were free to use. I aquired all the images for this project from from the website https://pixabay.com/ Full licence details can be found here - https://pixabay.com/service/license/
 - beach-water-still.jpg - https://pixabay.com/photos/dawlish-warren-dawlish-devon-sand-198118/ - Image by <a href="https://pixabay.com/users/inspiredimages-57296/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=198118">InspiredImages</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=198118">Pixabay</a>
 - beach-pier-sunset.jpg - https://pixabay.com/photos/jetty-pier-sea-sunset-dusk-dawn-593401/ - Image by <a href="https://pixabay.com/users/republica-24347/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=593401">Republica</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=593401">Pixabay</a>
 - beach-sunset.jpg - https://pixabay.com/photos/california-sunset-dusk-sky-clouds-1751455/ - Image by <a href="https://pixabay.com/users/12019-12019/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1751455">David Mark</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1751455">Pixabay</a>
@@ -54,9 +54,17 @@ List of planned and included features:
 - woman-3.jpg - https://pixabay.com/photos/girl-women-woman-beauty-female-2883300/ - Image by <a href="https://pixabay.com/users/estebancouceiro-6806095/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2883300">estebancouceiro</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2883300">Pixabay</a>
 - woman-4.jpg - https://pixabay.com/photos/woman-red-hat-field-flowers-plants-5564892/ - Image by <a href="https://pixabay.com/users/victoria_borodinova-6314823/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5564892">press 👍 and ⭐</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5564892">Pixabay</a>
 - woman-5.jpg - https://pixabay.com/photos/woman-senior-elderly-old-woman-5596179/ - Image by <a href="https://pixabay.com/users/zachtleven-9577367/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5596179">Zachtleven fotografie</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5596179">Pixabay</a>
+- sea-bridge.jpg - https://pixabay.com/photos/sea-bridge-baltic-sea-beach-sea-5299046/ - Image by <a href="https://pixabay.com/users/martinklass-16996710/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5299046">Martin Klass</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5299046">Pixabay</a>
 
-Google maps iframes taken directly from custom created routes on "https://maps.google.com". Licence details located here - https://cloud.google.com/maps-platform/terms/
+## Google Maps
+- Google Maps iframes taken directly from routes I created myself via - https://maps.google.com Licence details located here - https://cloud.google.com/maps-platform/terms/
 
-## Notes - Update Later
-- Used the Carousel template located here - https://getbootstrap.com/docs/4.5/examples/carousel/
-- Used the fixed top nav bar template located here - https://getbootstrap.com/docs/4.5/examples/navbar-static/
+## Favicon
+- Favicon.ico created by myself via this free website - https://favicon.io/favicon-generator/ Terms of use located here - https://favicon.io/terms-of-use/
+
+## Font
+- Nunito font taken directly via Google Fonts - https://fonts.google.com/specimen/Nunito Licence details located here - https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+
+## Bootstrap Templates
+- Nav bar template located here - https://getbootstrap.com/docs/4.5/examples/navbar-static/
+- Carousel template located here - https://getbootstrap.com/docs/4.5/examples/carousel/
