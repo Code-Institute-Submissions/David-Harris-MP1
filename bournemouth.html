@@ -3,8 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="android-chrome" sizes="512x512" href="assets/favicon/android-chrome-512x512.png">
-    <link rel="android-chrome" sizes="192x192" href="assets/favicon/android-chrome-192x192.png">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
@@ -17,9 +15,7 @@
     <title>Free Beach Walks</title>
   </head>
 <body>
-
-<wrapper class="d-flex flex-column">
-
+<wrapper class="d-flex flex-column" id="main-content-wrapper">
 <!-- The static nav bar was taken from a template located here - https://getbootstrap.com/docs/4.5/examples/navbar-static/ - I then built into the code with my modifications-->
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <a class="navbar-brand" href="index.html">Free Beach Walks</a>
@@ -48,93 +44,74 @@
 </nav>
 
 <main class="flex-fill">
-
 <div class="container-fluid title-underline">
     <div class="row">
-        <div class="col-md-6 offset-md-3 text-center">
-            <h2 class="margin-top">Boscombe & Bournemouth Beach Walk</h2>
+        <div class="col-md-6 offset-md-3 text-center mt-3 mb-3">
+            <h2>Boscombe & Bournemouth Beach Walk</h2>
         </div>
     </div>
 </div>
 
-<div class="container-fluid title-underline">
+<div class="container-fluid title-underline mt-3" id="goole-maps-route-detail">
     <div class="row">
-        <div class="col-md-6 offset-md-3 text-center">
-            <h4 class="margin-top">Route Details</h4>
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid" id="goole-maps-route-detail">
-    <div class="row">
-        <div class="col-md-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d10104.649647916049!2d-1.869247754852503!3d50.716926008218365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x48739f6e8f7bb683%3A0x3c47f6cda2ad090f!2sBoscombe%20Pier%2C%202494%20Undercliff%20Dr%2C%20Boscombe%2C%20Bournemouth%20BH5%201BN!3m2!1d50.719797!2d-1.8432689999999998!4m5!1s0x4873a1cf62e52f79%3A0xf08de45c0e14b4fa!2sBournemouth%20Pier%2C%20Pier%20Approach%2C%20Bournemouth%20BH2%205AA!3m2!1d50.7138334!2d-1.8745288!5e0!3m2!1sen!2suk!4v1609318533700!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-        <div class="col-md-6">
+        <div class="col-md-4 mt-3">
+            <h4>Route Details</h4>
             <p>This route starts from the Boscombe pier and ends at the Bournemouth pier. The route is a simple straight walk along the beach for around 30 minutes.<br><br><strong>Please note:</strong> The google maps route is clickable. Please click the map to be loaded into a new tab to be given the full route details directly via Google Maps.</p>
         </div>
-    </div>
-</div>
-
-<div class="container-fluid title-underline">
-    <div class="row">
-        <div class="col-md-6 offset-md-3 text-center">
-            <h4 class="margin-top">Parking Details</h4>
+        <div class="col-md-8 mt-3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d10104.649647916049!2d-1.869247754852503!3d50.716926008218365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x48739f6e8f7bb683%3A0x3c47f6cda2ad090f!2sBoscombe%20Pier%2C%202494%20Undercliff%20Dr%2C%20Boscombe%2C%20Bournemouth%20BH5%201BN!3m2!1d50.719797!2d-1.8432689999999998!4m5!1s0x4873a1cf62e52f79%3A0xf08de45c0e14b4fa!2sBournemouth%20Pier%2C%20Pier%20Approach%2C%20Bournemouth%20BH2%205AA!3m2!1d50.7138334!2d-1.8745288!5e0!3m2!1sen!2suk!4v1609318533700!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
     </div>
 </div>
 
-<div class="container-fluid" id="goole-maps-parking-detail">
+<div class="container-fluid title-underline mt-3" id="goole-maps-parking-detail">
     <div class="row">
-        <div class="col-md-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d2525.9589178213155!2d-1.840003784096547!3d50.72070132573557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e2!4m3!3m2!1d50.721536199999996!2d-1.8331756!4m5!1s0x48739f6e8f7bb683%3A0x3c47f6cda2ad090f!2sBoscombe%20Pier%2C%202494%20Undercliff%20Dr%2C%20Boscombe%2C%20Bournemouth%20BH5%201BN!3m2!1d50.719797!2d-1.8432689999999998!5e0!3m2!1sen!2suk!4v1609319545345!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-        <div class="col-md-6">
+        <div class="col-md-4 mt-3">
+            <h4>Parking Details</h4>
             <p>Free parking is located on “Boscombe Overcliff Drive” & "Southbourne Overcliff Drive" roads via marked parking bays.<br><br><strong>Please note:</strong> The google maps route is clickable. Please click the map to be loaded into a new tab to be given the full route details directly via Google Maps.</p>
         </div>
+        <div class="col-md-8 mt-3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d2525.9589178213155!2d-1.840003784096547!3d50.72070132573557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e2!4m3!3m2!1d50.721536199999996!2d-1.8331756!4m5!1s0x48739f6e8f7bb683%3A0x3c47f6cda2ad090f!2sBoscombe%20Pier%2C%202494%20Undercliff%20Dr%2C%20Boscombe%2C%20Bournemouth%20BH5%201BN!3m2!1d50.719797!2d-1.8432689999999998!5e0!3m2!1sen!2suk!4v1609319545345!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
     </div>
 </div>
 
 <div class="container-fluid title-underline">
     <div class="row">
-        <div class="col-md-6 offset-md-3 text-center margin-top">
-            <h4 class="margin-top">Community Route Reviews</h4>
+        <div class="col-md-6 offset-md-3 text-center mt-5 mb-3">
+            <h4>Community Route Reviews</h4>
         </div>
     </div>
 </div>
 
-<div class="container-fluid" id="user-review-grids">
+<div class="container-fluid title-underline text-center">
     <div class="row">
-        <div class="col-md-4 text-center">
-            <h5 class="margin-top">Bob</h5>
-            <img src="assets/images/man-1.jpg" alt="A man smiling." class="img-responsive">
-            <p class="margin-top">This walk was relaxing. Recommended for a lazy Sunday afternoon.</p>
+        <div class="col-md-4">
+            <img src="assets/images/man-1.jpg" alt="a man smiling" class="img-responsive" style="height: auto; max-height: 15em; width: 50%; max-width: 50%;">
+            <h4 class="mt-2">Bob</h4>
+            <p>This walk was very relaxing. I loved it!<br><strong>Rating: 9/10</strong></p>
         </div>
-        <div class="col-md-4 text-center">
-            <h5 class="margin-top">Jenny</h5>
-            <img src="assets/images/woman-1.jpg" alt="A woman smiling." class="img-responsive">
-            <p class="margin-top">This walk doubles as a good location to take a morning run.</p>
+        <div class="col-md-4">
+            <img src="assets/images/woman-1.jpg" alt="a woman smiling" class="img-responsive" style="height: auto; max-height: 15em; width: 50%; max-width: 50%;">
+            <h4 class="mt-2">Jenny</h4>
+            <p>This walk doubles as a good location to take a morning run.<br><strong>Rating: 8.5/10</strong></p>
         </div>
-        <div class="col-md-4 text-center">
-            <h5 class="margin-top">Brenda</h5>
-            <img src="assets/images/woman-2.jpg" alt="A woman smiling." class="img-responsive">
-            <p class="margin-top">It's nice to see the Bournemouth pier in the distance on this walk.</p>
+        <div class="col-md-4">
+            <img img src="assets/images/woman-2.jpg" alt="a woman smiling" class="img-responsive" style="height: auto; max-height: 15em; width: 50%; max-width: 50%;">
+            <h4 class="mt-2">Brenda</h4>
+            <p>It's nice to see the Bournemouth pier in the distance on this walk.<br><strong>Rating: 7/10</strong></p>
         </div>
     </div>
 </div>
 </main>
 
-<hr>
-<footer class="text-center bg-dark">
+<footer class="bg-dark text-center">
     <div id="social-media-icons">
         <a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram-square fa-2x"></i></a>
         <a href="https://www.twitter.com/" target="blank"><i class="fab fa-twitter-square fa-2x"></i></a>
         <a href="https://www.facebook.com" target="blank"><i class="fab fa-facebook-square fa-2x"></i></a>
         <a href="https://www.youtube.com" target="blank"><i class="fab fa-youtube-square fa-2x"></i></a>
-    </div>
-
-    <div id="footer-text">
-        <p>Follow us on social media!</p>
+        <p class="text-light">Follow us on social media!</p>
     </div>
 </footer>
 </wrapper>

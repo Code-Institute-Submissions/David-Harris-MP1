@@ -3,8 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="android-chrome" sizes="512x512" href="assets/favicon/android-chrome-512x512.png">
-    <link rel="android-chrome" sizes="192x192" href="assets/favicon/android-chrome-192x192.png">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
@@ -17,9 +15,7 @@
     <title>Free Beach Walks</title>
   </head>
 <body>
-
-<wrapper class="d-flex flex-column">
-
+<wrapper class="d-flex flex-column" id="main-content-wrapper">
 <!-- The static nav bar was taken from a template located here - https://getbootstrap.com/docs/4.5/examples/navbar-static/ - I then built into the code with my modifications-->
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <a class="navbar-brand" href="index.html">Free Beach Walks</a>
@@ -48,93 +44,74 @@
 </nav>
 
 <main class="flex-fill">
-
 <div class="container-fluid title-underline">
     <div class="row">
-        <div class="col-md-6 offset-md-3 text-center">
-            <h2 class="margin-top">Portsmouth Beach Walk</h2>
+        <div class="col-md-6 offset-md-3 text-center mt-3 mb-3">
+            <h2>Portsmouth Beach Walk</h2>
         </div>
     </div>
 </div>
 
-<div class="container-fluid title-underline">
+<div class="container-fluid title-underline mt-3" id="goole-maps-route-detail">
     <div class="row">
-        <div class="col-md-6 offset-md-3 text-center">
-            <h4 class="margin-top">Route Details</h4>
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid" id="goole-maps-route-detail">
-    <div class="row">
-        <div class="col-md-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d5045.003199909639!2d-1.0486112918390476!3d50.78481203109381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x48745d8e4fd4f383%3A0x4f4ba2dd6757bd1e!2sSouth%20Parade%20Pier%2C%20S%20Parade%2C%20Southsea%2C%20Portsmouth%2C%20Southsea%20PO4%200SW!3m2!1d50.7792259!2d-1.0763774!4m5!1s0x48745c43977bc50b%3A0x963a5be560b8e55e!2sAnti%20Tank%20Block%20Beach%20Defences!3m2!1d50.7856901!2d-1.0444978!5e0!3m2!1sen!2suk!4v1609321519773!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-        <div class="col-md-6">
+        <div class="col-md-4 mt-3">
+            <h4>Route Details</h4>
             <p>This route starts from the South Parade Pier and ends at the Anti-Tank Block Beach Defences. The route is a simple straight walk along the beach for around 30 minutes.<br><br><strong>Please note:</strong> The google maps route is clickable. Please click the map to be loaded into a new tab to be given the full route details directly via Google Maps.</p>
         </div>
-    </div>
-</div>
-
-<div class="container-fluid title-underline">
-    <div class="row">
-        <div class="col-md-6 offset-md-3 text-center">
-            <h4 class="margin-top">Parking Details</h4>
+        <div class="col-md-8 mt-3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d5045.003199909639!2d-1.0486112918390476!3d50.78481203109381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x48745d8e4fd4f383%3A0x4f4ba2dd6757bd1e!2sSouth%20Parade%20Pier%2C%20S%20Parade%2C%20Southsea%2C%20Portsmouth%2C%20Southsea%20PO4%200SW!3m2!1d50.7792259!2d-1.0763774!4m5!1s0x48745c43977bc50b%3A0x963a5be560b8e55e!2sAnti%20Tank%20Block%20Beach%20Defences!3m2!1d50.7856901!2d-1.0444978!5e0!3m2!1sen!2suk!4v1609321519773!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
     </div>
 </div>
 
-<div class="container-fluid" id="goole-maps-parking-detail">
+<div class="container-fluid title-underline mt-3" id="goole-maps-parking-detail">
     <div class="row">
-        <div class="col-md-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3567.7626779961756!2d-1.0844644761926336!3d50.77948146888429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e2!4m5!1s0x48745d8e4fd4f383%3A0x4f4ba2dd6757bd1e!2sSouth%20Parade%20Pier%2C%20South%20Parade%2C%20Southsea%2C%20Portsmouth%2C%20Southsea!3m2!1d50.7792259!2d-1.0763774!4m3!3m2!1d50.782241899999995!2d-1.0886947!5e0!3m2!1sen!2suk!4v1609321255989!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-        <div class="col-md-6">
+        <div class="col-md-4 mt-3">
+            <h4>Parking Details</h4>
             <p>Free parking is located on “Ave De Caen" road. This parking is paid parking during the day but is free in the evening.<br><br><strong>Please note:</strong> The google maps route is clickable. Please click the map to be loaded into a new tab to be given the full route details directly via Google Maps.</p>
         </div>
+        <div class="col-md-8 mt-3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3567.7626779961756!2d-1.0844644761926336!3d50.77948146888429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e2!4m5!1s0x48745d8e4fd4f383%3A0x4f4ba2dd6757bd1e!2sSouth%20Parade%20Pier%2C%20South%20Parade%2C%20Southsea%2C%20Portsmouth%2C%20Southsea!3m2!1d50.7792259!2d-1.0763774!4m3!3m2!1d50.782241899999995!2d-1.0886947!5e0!3m2!1sen!2suk!4v1609321255989!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
     </div>
 </div>
-
+    
 <div class="container-fluid title-underline">
     <div class="row">
-        <div class="col-md-6 offset-md-3 text-center margin-top">
-            <h4 class="margin-top">Community Route Reviews</h4>
+        <div class="col-md-6 offset-md-3 text-center mt-5 mb-3">
+            <h4>Community Route Reviews</h4>
         </div>
     </div>
 </div>
 
-<div class="container-fluid" id="user-review-grids">
+<div class="container-fluid title-underline text-center">
     <div class="row">
-        <div class="col-md-4 text-center">
-            <h5 class="margin-top">Ben</h5>
-            <img src="assets/images/man-2.jpg" alt="A man smiling." class="img-responsive">
-            <p class="margin-top">I enjoyed the history of the war on this route.</p>
+        <div class="col-md-4">
+            <img src="assets/images/man-2.jpg" alt="A man smiling." class="img-responsive" style="height: auto; max-height: 15em; width: 50%; max-width: 50%;">
+            <h4 class="mt-2">Ben</h4>
+            <p>I enjoyed the history of the war on this route.<br><strong>Rating: 8/10</strong></p>
         </div>
-        <div class="col-md-4 text-center">
-            <h5 class="margin-top">Matthew</h5>
-            <img src="assets/images/man-3.jpg" alt="A man smiling." class="img-responsive">
-            <p class="margin-top">Nice quick route. Enjoyed on my lunch break.</p>
+        <div class="col-md-4">
+            <img src="assets/images/man-3.jpg" alt="A man smiling." class="img-responsive" style="height: auto; max-height: 15em; width: 50%; max-width: 50%;">
+            <h4 class="mt-2">Matthew</h4>
+            <p>Nice quick route. Enjoyed on my lunch break.<br><strong>Rating: 7/10</strong></p>
         </div>
-        <div class="col-md-4 text-center">
-            <h5 class="margin-top">Lauren</h5>
-            <img src="assets/images/woman-3.jpg" alt="A woman smiling." class="img-responsive">
-            <p class="margin-top">Very good view of the sea. I enjoyed sitting and watching the ships go past.</p>
+        <div class="col-md-4">
+            <img src="assets/images/woman-3.jpg" alt="A woman smiling." class="img-responsive" style="height: auto; max-height: 15em; width: 50%; max-width: 50%;">
+            <h4 class="mt-2">Lauren</h4>
+            <p>Very good view of the sea. I enjoyed sitting and watching the ships go past.<br><strong>Rating: 9/10</strong></p>
         </div>
     </div>
 </div>
 </main>
 
-<hr>
-<footer class="text-center bg-dark">
+<footer class="bg-dark text-center">
     <div id="social-media-icons">
         <a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram-square fa-2x"></i></a>
         <a href="https://www.twitter.com/" target="blank"><i class="fab fa-twitter-square fa-2x"></i></a>
         <a href="https://www.facebook.com" target="blank"><i class="fab fa-facebook-square fa-2x"></i></a>
         <a href="https://www.youtube.com" target="blank"><i class="fab fa-youtube-square fa-2x"></i></a>
-    </div>
-
-    <div id="footer-text">
-        <p>Follow us on social media!</p>
+        <p class="text-light">Follow us on social media!</p>
     </div>
 </footer>
 </wrapper>

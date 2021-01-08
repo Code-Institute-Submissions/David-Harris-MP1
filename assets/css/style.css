@@ -4,45 +4,19 @@ body {
 }
 /* --------------------all-website-page-text-------------------- */
 
-/* --------------------home-page-main-text-------------------- */
-#home-page-main-text h2 {
-    color: #343a34;
-    margin-top: 1em;
-}
-
-#home-page-main-text p {
-    color: #343a34;
-    margin-top: 1em;
-}
-/* --------------------home-page-main-text-------------------- */
-
-/* --------------------home-page-routes-grid-------------------- */
-.card-body {
-    background-color: #343a34;
-    color: white;
-    text-align: center;
-}
-
-.card {
-    margin-top: 1em;
-    margin-bottom: 2em;
-}
-
-.card img {
-height: auto;
-max-height: 30em;
-width: auto;
-max-width: 40em;
-}
-/* --------------------home-page-routes-grid-------------------- */
-
 /* --------------------title-underline-------------------- */
 .title-underline h2 {
     text-decoration: underline;
 }
+
+.title-underline h3 {
+    text-decoration: underline;
+}
+
 .title-underline h4 {
     text-decoration: underline;
 }
+
 .title-underline h5 {
     text-decoration: underline;
 }
@@ -52,7 +26,7 @@ max-width: 40em;
 #goole-maps-route-detail iframe {
     width: 100%;
     max-width: 100%;
-    height: auto;
+    height: 100%;
     max-height: 100%;
 }
 /* --------------------google-maps-route-------------------- */
@@ -61,20 +35,10 @@ max-width: 40em;
 #goole-maps-parking-detail iframe {
     width: 100%;
     max-width: 100%;
-    height: auto;
+    height: 100%;
     max-height: 100%;
 }
 /* --------------------google-maps-parking-------------------- */
-
-/* --------------------user-review-grids-------------------- */
-#user-review-grids img {
-    width: auto;
-    max-width: 50%;
-    height: auto;
-    max-height: 50%;
-    border-radius: 50%;
-}
-/* --------------------user-review-grids-------------------- */
 
 /* --------------------flex-box-fix-bottom-footer-------------------- */
 body, wrapper {
@@ -88,15 +52,19 @@ body, wrapper {
 
 /* --------------------footer-colour-------------------- */
 #social-media-icons i {
-    color: white;
+    color: #659DBD;
     margin-top: 0.5em;
+}
+
+#social-media-icons :hover {
+    color: orange;
 }
 /* --------------------footer-colour-------------------- */
 
 /* --------------------submit-route-form-------------------- */
 #submit-route-form h2 {
     text-decoration: underline;
-    color: #343a34;
+    margin-bottom: 0.5em;
 }
 
 #submit-route-form {
@@ -107,6 +75,24 @@ body, wrapper {
 
 /* --------------------background-image-------------------- */
 #main-content-wrapper {
-    background-color: #99c2ff;
+    background-color: #659DBD;
 }
 /* --------------------background-image-------------------- */
+
+/* --------------------card-------------------- */
+.card {
+    border-style: none;
+    background: none;
+}
+/* --------------------card-------------------- */
+
+/* --------------------button-------------------- */
+.btn-secondary {
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: orange;
+    border: none;
+}
+/* --------------------button-------------------- */

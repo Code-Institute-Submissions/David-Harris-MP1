@@ -3,8 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="android-chrome" sizes="512x512" href="assets/favicon/android-chrome-512x512.png">
-    <link rel="android-chrome" sizes="192x192" href="assets/favicon/android-chrome-192x192.png">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
@@ -17,9 +15,7 @@
     <title>Free Beach Walks</title>
   </head>
 <body>
-
-<wrapper class="d-flex flex-column">
-
+<wrapper class="d-flex flex-column" id="main-content-wrapper">
 <!-- The static nav bar was taken from a template located here - https://getbootstrap.com/docs/4.5/examples/navbar-static/ - I then built into the code with my modifications-->
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <a class="navbar-brand" href="index.html">Free Beach Walks</a>
@@ -50,90 +46,72 @@
 <main class="flex-fill">
 <div class="container-fluid title-underline">
     <div class="row">
-        <div class="col-md-6 offset-md-3 text-center">
-            <h2 class="margin-top">Brighton Beach Walk</h2>
+        <div class="col-md-6 offset-md-3 text-center mt-3 mb-3">
+            <h2>Brighton Beach Walk</h2>
         </div>
     </div>
 </div>
 
-<div class="container-fluid title-underline">
+<div class="container-fluid title-underline mt-3" id="goole-maps-route-detail">
     <div class="row">
-        <div class="col-md-6 offset-md-3 text-center">
-            <h4 class="margin-top">Route Details</h4>
-        </div>
-    </div>
-</div>
-
-<div class="container-fluid" id="goole-maps-route-detail">
-    <div class="row">
-        <div class="col-md-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d20169.28537176993!2d-0.10621095868947823!3d50.8096617579845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x487587016ae8ed0d%3A0x544ee4d0acb990fe!2sSaltdean%20Beach!3m2!1d50.799958399999994!2d-0.0409307!4m5!1s0x4875850af723317f%3A0x5256b3d81576e2d5!2sBrighton%20Pier%2C%20Madeira%20Drive%2C%20Brighton!3m2!1d50.816855499999996!2d-0.136738!5e0!3m2!1sen!2suk!4v1609576054950!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-        <div class="col-md-6">
+        <div class="col-md-4 mt-3">
+            <h4>Route Details</h4>
             <p>This route starts from Saltdean Beach and ends at the Brighton pier. The route is a simple straight walk along the beach for around 1 hour & 30 minutes.<br><br><strong>Please note:</strong> The google maps route is clickable. Please click the map to be loaded into a new tab to be given the full route details directly via Google Maps.</p>
         </div>
-    </div>
-</div>
-
-<div class="container-fluid title-underline">
-    <div class="row">
-        <div class="col-md-6 offset-md-3 text-center">
-            <h4 class="margin-top">Parking Deetails</h4>
+        <div class="col-md-8 mt-3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d20169.28537176993!2d-0.10621095868947823!3d50.8096617579845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e2!4m5!1s0x487587016ae8ed0d%3A0x544ee4d0acb990fe!2sSaltdean%20Beach!3m2!1d50.799958399999994!2d-0.0409307!4m5!1s0x4875850af723317f%3A0x5256b3d81576e2d5!2sBrighton%20Pier%2C%20Madeira%20Drive%2C%20Brighton!3m2!1d50.816855499999996!2d-0.136738!5e0!3m2!1sen!2suk!4v1609576054950!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
     </div>
 </div>
 
-<div class="container-fluid" id="goole-maps-parking-detail">
+<div class="container-fluid title-underline mt-3" id="goole-maps-parking-detail">
     <div class="row">
-        <div class="col-md-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d2521.63102627044!2d-0.041944934094407166!3d50.80094626992843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e2!4m3!3m2!1d50.8019257!2d-0.0385767!4m5!1s0x487587016ae8ed0d%3A0x544ee4d0acb990fe!2sSaltdean%20Beach!3m2!1d50.799958399999994!2d-0.0409307!5e0!3m2!1sen!2suk!4v1609575954420!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-        <div class="col-md-6">
+        <div class="col-md-4 mt-3">
+            <h4>Parking Details</h4>
             <p>Free parking is located on “Chichester Drive East" road. This parking is free all day without any restrictions.<br><br><strong>Please note:</strong> The google maps route is clickable. Please click the map to be loaded into a new tab to be given the full route details directly via Google Maps.</p>
         </div>
+        <div class="col-md-8 mt-3">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d2521.63102627044!2d-0.041944934094407166!3d50.80094626992843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e2!4m3!3m2!1d50.8019257!2d-0.0385767!4m5!1s0x487587016ae8ed0d%3A0x544ee4d0acb990fe!2sSaltdean%20Beach!3m2!1d50.799958399999994!2d-0.0409307!5e0!3m2!1sen!2suk!4v1609575954420!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
     </div>
 </div>
 
 <div class="container-fluid title-underline">
     <div class="row">
-        <div class="col-md-6 offset-md-3 text-center margin-top">
-            <h4 class="margin-top">Community Route Reviews</h4>
+        <div class="col-md-6 offset-md-3 text-center mt-5 mb-3">
+            <h4>Community Route Reviews</h4>
         </div>
     </div>
 </div>
 
-<div class="container-fluid" id="user-review-grids">
+<div class="container-fluid title-underline text-center">
     <div class="row">
-        <div class="col-md-4 text-center">
-            <h5 class="margin-top">Oliver</h5>
-            <img src="assets/images/man-4.jpg" alt="A man smiling." class="img-responsive">
-            <p class="margin-top">A long beach walk. I loved it.</p>
+        <div class="col-md-4">
+            <img src="assets/images/man-4.jpg" alt="A man smiling." class="img-responsive" style="height: auto; max-height: 15em; width: 50%; max-width: 50%;">
+            <h4 class="mt-2">Oliver</h4>
+            <p class="margin-top">A long beach walk. I loved it.<br><strong>Rating: 8.5/10</strong></p>
         </div>
-        <div class="col-md-4 text-center">
-            <h5 class="margin-top">Katie</h5>
-            <img src="assets/images/woman-4.jpg" alt="A woman smiling." class="img-responsive">
-            <p class="margin-top">I have walked this route multiple times. It has never disappointed.</p>
+        <div class="col-md-4">
+            <img src="assets/images/woman-4.jpg" alt="A woman smiling." class="img-responsive" style="height: auto; max-height: 15em; width: 50%; max-width: 50%;">
+            <h4 class="mt-2">Katie</h4>
+            <p class="margin-top">I have walked this route multiple times. It has never disappointed.<br><strong>Rating: 9.0/10</strong></p>
         </div>
-        <div class="col-md-4 text-center">
-            <h5 class="margin-top">Amelia</h5>
-            <img src="assets/images/woman-5.jpg" alt="A woman smiling." class="img-responsive">
-            <p class="margin-top">My grandchildren really like this walk. We have done it many times.</p>
+        <div class="col-md-4">
+            <img src="assets/images/woman-5.jpg" alt="A woman smiling." class="img-responsive" style="height: auto; max-height: 15em; width: 50%; max-width: 50%;">
+            <h4 class="mt-2">Amelia</h4>
+            <p class="margin-top">My grandchildren really like this walk. We have done it many times.<br><strong>Rating: 10/10</strong></p>
         </div>
     </div>
 </div>
 </main>
 
-<hr>
-<footer class="text-center bg-dark">
+<footer class="bg-dark text-center">
     <div id="social-media-icons">
         <a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram-square fa-2x"></i></a>
         <a href="https://www.twitter.com/" target="blank"><i class="fab fa-twitter-square fa-2x"></i></a>
         <a href="https://www.facebook.com" target="blank"><i class="fab fa-facebook-square fa-2x"></i></a>
         <a href="https://www.youtube.com" target="blank"><i class="fab fa-youtube-square fa-2x"></i></a>
-    </div>
-
-    <div id="footer-text">
-        <p>Follow us on social media!</p>
+        <p class="text-light">Follow us on social media!</p>
     </div>
 </footer>
 </wrapper>
