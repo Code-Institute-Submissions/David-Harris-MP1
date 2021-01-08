@@ -3,8 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="android-chrome" sizes="512x512" href="assets/favicon/android-chrome-512x512.png">
-    <link rel="android-chrome" sizes="192x192" href="assets/favicon/android-chrome-192x192.png">
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
@@ -16,8 +14,9 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Free Beach Walks</title>
   </head>
-<body>
 
+<body>
+<wrapper class="d-flex flex-column" id="main-content-wrapper">
 <!-- The static nav bar was taken from a template located here - https://getbootstrap.com/docs/4.5/examples/navbar-static/ - I then built into the code with my modifications-->
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <a class="navbar-brand" href="index.html">Free Beach Walks</a>
@@ -45,50 +44,43 @@
 </div>
 </nav>
 
-<form class="margin-top">
-    <div class="form-row justify-content-center">
-        <div class="form-group col-md-4">
-            <label for="route-submission-first-name">First Name</label>
-            <input type="text" class="form-control" id="route-submission-first-name">
+<main class="flex-fill">
+<form id="submit-route-form">
+    <div class="form-group row">
+        <div class="form-group col-8 offset-2 text-center">
+            <h2>Submit Detailed Route Information Here</h2>
         </div>
-        <div class="form-group col-md-4">
-            <label for="route-submission-last-name">Last Name</label>
-            <input type="text" class="form-control" id="route-submission-last-name">
+        <div class="form-group col-8 offset-2 text-center">
+            <input type="text" class="form-control" id="route-submission-first-name" placeholder="First Name:">
         </div>
-        <div class="form col-md-8">
-            <label for="route-submission-email">Email Address</label>
-            <input type="email" class="form-control" id="route-submission-email" placeholder="Your email will be kept private.">
+        <div class="form-group col-8 offset-2 text-center">
+            <input type="text" class="form-control" id="route-submission-last-name" placeholder="Last Name:">
         </div>
-        <div class="form col-md-8">
-            <label for="route-submission-text-area">Route Details</label>
-            <textarea class="form-control" id="route-submission-text-area" placeholder="Please include Google Maps route and parking location." rows="6"></textarea>
+        <div class="form-group col-8 offset-2 text-center">
+            <input type="email" class="form-control" id="route-submission-email" placeholder="Email: Your email will be kept private.">
         </div>
-    </div>
-<div class="container">
-    <div class="row">
-        <div class="col text-center">
-            <button class="btn btn-primary margin-top">Submit Route</button>
+        <div class="form-group col-8 offset-2 text-center">
+            <textarea class="form-control" id="route-submission-text-area" placeholder="Route Details: Please include Google Maps route and parking location." rows="15"></textarea>
+        </div>
+        <div class="form-group col-8 offset-2 text-center">
+            <button class="btn btn-secondary">Submit Route</button>
         </div>
     </div>
-</div>
 </form>
+</main>
 
-<hr>
-<footer class="text-center">
+<footer class="bg-dark text-center">
     <div id="social-media-icons">
         <a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram-square fa-2x"></i></a>
         <a href="https://www.twitter.com/" target="blank"><i class="fab fa-twitter-square fa-2x"></i></a>
         <a href="https://www.facebook.com" target="blank"><i class="fab fa-facebook-square fa-2x"></i></a>
         <a href="https://www.youtube.com" target="blank"><i class="fab fa-youtube-square fa-2x"></i></a>
-    </div>
-
-    <div id="footer-text">
-        <p>Follow us on social media!</p>
+        <p class="text-light">Follow us on social media!</p>
     </div>
 </footer>
+</wrapper>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
 </body>
 </html>

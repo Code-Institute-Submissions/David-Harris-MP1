@@ -4,40 +4,37 @@ body {
 }
 /* --------------------all-website-page-text-------------------- */
 
-/* --------------------carousel-------------------- */
-#myCarousel {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    max-height: 540px;
+/* --------------------home-page-main-text-------------------- */
+#home-page-main-text h2 {
+    color: #343a34;
+    margin-top: 1em;
 }
 
-#myCarousel img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    max-height: 540px;
+#home-page-main-text p {
+    color: #343a34;
+    margin-top: 1em;
+}
+/* --------------------home-page-main-text-------------------- */
+
+/* --------------------home-page-routes-grid-------------------- */
+.card-body {
+    background-color: #343a34;
+    color: white;
+    text-align: center;
 }
 
-.carousel-inner {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    margin-bottom: 5px;
-    position: relative;
+.card {
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
-/* --------------------carousel-------------------- */
 
-/* --------------------home-page-route-links-grid-------------------- */
-#home-page-route-links-grid img {
-    height: auto;
-    max-height: 100%;
-    width: auto;
-    max-width: 100%;
-    margin-bottom: 5px;
+.card img {
+height: auto;
+max-height: 30em;
+width: auto;
+max-width: 40em;
 }
-/* --------------------home-page-route-links-grid-------------------- */
+/* --------------------home-page-routes-grid-------------------- */
 
 /* --------------------title-underline-------------------- */
 .title-underline h2 {
@@ -50,12 +47,6 @@ body {
     text-decoration: underline;
 }
 /* --------------------title-underline-------------------- */
-
-/* --------------------margin-top-------------------- */
-.margin-top {
-    margin-top: 15px;
-}
-/* --------------------margin-top-------------------- */
 
 /* --------------------google-maps-route-------------------- */
 #goole-maps-route-detail iframe {
@@ -84,3 +75,38 @@ body {
     border-radius: 50%;
 }
 /* --------------------user-review-grids-------------------- */
+
+/* --------------------flex-box-fix-bottom-footer-------------------- */
+body, wrapper {
+   min-height:100vh;
+}
+
+.flex-fill {
+   flex:1 1 auto;
+}
+/* --------------------flex-box-fix-bottom-footer-------------------- */
+
+/* --------------------footer-colour-------------------- */
+#social-media-icons i {
+    color: white;
+    margin-top: 0.5em;
+}
+/* --------------------footer-colour-------------------- */
+
+/* --------------------submit-route-form-------------------- */
+#submit-route-form h2 {
+    text-decoration: underline;
+    color: #343a34;
+}
+
+#submit-route-form {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+/* --------------------submit-route-form-------------------- */
+
+/* --------------------background-image-------------------- */
+#main-content-wrapper {
+    background-color: #99c2ff;
+}
+/* --------------------background-image-------------------- */

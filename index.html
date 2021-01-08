@@ -18,6 +18,8 @@
   </head>
 <body>
 
+<wrapper class="d-flex flex-column" id="main-content-wrapper">
+        
 <!-- The static nav bar was taken from a template located here - https://getbootstrap.com/docs/4.5/examples/navbar-static/ - I then built into the code with my modifications-->
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <a class="navbar-brand" href="index.html">Free Beach Walks</a>
@@ -45,81 +47,73 @@
 </div>
 </nav>
 
-<!-- The carousel code was taken from a template located here - https://getbootstrap.com/docs/4.5/examples/carousel/ - I then built into the code with my modifications -->
-<div id="myCarousel" class="carousel slide container" data-ride="carousel">
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="assets/images/beach-water-still.jpg" alt="An empty beach with with a still sea." class="img-responsive">
-             <div class="container">
-                <div class="carousel-caption text-left">
-            </div>
+<main class="flex-fill">
+<div class="container-fluid title-underline" id="home-page-main-text">
+    <div class="row">
+        <div class="col-md-6 offset-md-3 text-center">
+            <h2>Free Beach Walks On The South Coast Of England</h2>
+            <p>Welcome to a free community driven website that showcases fantastic beach walks along the south coast of England.<br>If you have any suggested routes to submit please use the Submit Beach Walks page.<br>The team will review and provide you with an update as soon as possible.</p>
         </div>
-    </div>
-                
-        <div class="carousel-item">
-            <img src="assets/images/beach-pier-sunset.jpg" alt="A beach and pier at sunset." class="img-responsive">
-        </div>
-            
-            <div class="carousel-item">
-                <img src="assets/images/beach-sunset.jpg" alt="An empty beach and sea at sunset." class="img-responsive">
-                    <div class="container">
-                        <div class="carousel-caption text-right">
-                    </div>
-                </div>
-    </div>
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-        </a>
     </div>
 </div>
 
 <div class="container-fluid title-underline">
     <div class="row">
-        <div class="col-md-6 offset-md-3 text-center">
-            <h2>Free Beach Walks On The South Coast Of England</h2>
-            <p>Welcome to a free community driven website that showcases fantastic beach walks along the south coast of England.<br>If you have any suggested routes to submit please use the following link here: <a href="submitbeachwalks.html">Submit Beach Walks</a>.<br>The team will review and provide you with an update as soon as possible.</p>
+      <div class="col-md-4">
+          <div class="card text-ceter">
+              <img src="assets/images/bournemouth-pier.jpg" alt="bournemouth pier & beach" class="card-img-top img-responsive">
+              <div class="card-body">
+                  <h5 class="card-title">Boscombe & Bournemouth Beach Walk</h5>
+                  <a class="btn btn-secondary" href="bournemouth.html">Route Details</a> 
+              </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-ceter">
+              <img src="assets/images/portsmouth-sunset-walk.jpg" alt="portsmouth pier & beach" class="card-img-top img-responsive">
+              <div class="card-body">
+                  <h5 class="card-title">Portsmouth Beach Walk</h5>
+                  <a class="btn btn-secondary" href="portsmouth.html">Route Details</a> 
+              </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-ceter">
+              <img src="assets/images/brighton-pier.jpg" alt="brighton pier & beach" class="card-img-top img-responsive">
+              <div class="card-body">
+                  <h5 class="card-title">Brighton Beach Walk</h5>
+                  <a class="btn btn-secondary" href="brighton.html">Route Details</a> 
+              </div>
+            </div>
         </div>
     </div>
 </div>
+</main>
 
-<div class="container-fluid title-underline" id="home-page-route-links-grid">
-    <div class="row">
-      <div class="col-md-4 text-center">
-        <h5>Bournemouth</h5>
-        <img src="assets/images/bournemouth-pier.jpg" alt="Bournemouth pier & beach.">
-        <p><a class="btn btn-primary" href="bournemouth.html" role="button">Route Details</a></p>
+        <!-- <h5>Bournemouth</h5>
+        <img src="assets/images/bournemouth-pier.jpg" alt="Bournemouth pier & beach." class="img-responsive">
       </div>
       <div class="col-md-4 text-center">
         <h5>Portsmouth</h5>
-        <img src="assets/images/portsmouth-sunset-walk.jpg" alt="Portsmouth sunset path by the sea.">
-        <p><a class="btn btn-primary" href="portsmouth.html" role="button">Route Details</a></p>
+        <img src="assets/images/portsmouth-sunset-walk.jpg" alt="Portsmouth sunset path by the sea." class="img-responsive">
       </div>
       <div class="col-md-4 text-center">
         <h5>Brighton</h5>
-        <img src="assets/images/brighton-pier.jpg" alt="Brighton pier & beach.">
-        <p><a class="btn btn-primary" href="brighton.html" role="button">Route Details</a></p>
+        <img src="assets/images/brighton-pier.jpg" alt="Brighton pier & beach." class="img-responsive">
       </div>
     </div>
-  </div>
+  </div> -->
 
-<hr>
-<footer class="text-center">
+<footer class="bg-dark text-center">
     <div id="social-media-icons">
         <a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram-square fa-2x"></i></a>
         <a href="https://www.twitter.com/" target="blank"><i class="fab fa-twitter-square fa-2x"></i></a>
         <a href="https://www.facebook.com" target="blank"><i class="fab fa-facebook-square fa-2x"></i></a>
         <a href="https://www.youtube.com" target="blank"><i class="fab fa-youtube-square fa-2x"></i></a>
-    </div>
-
-    <div id="footer-text">
-        <p>Follow us on social media!</p>
+        <p class="text-light">Follow us on social media!</p>
     </div>
 </footer>
+</wrapper>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
