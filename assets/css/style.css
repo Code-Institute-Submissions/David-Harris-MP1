@@ -20,6 +20,10 @@ body {
 .title-underline h5 {
     text-decoration: underline;
 }
+
+#bonus-video-title h2 {
+    text-decoration: underline;
+}
 /* --------------------title-underline-------------------- */
 
 /* --------------------google-maps-route-------------------- */
@@ -73,11 +77,27 @@ body, wrapper {
 }
 /* --------------------submit-route-form-------------------- */
 
-/* --------------------background-image-------------------- */
-#main-content-wrapper {
+/* --------------------submit-beach-walk-video-------------------- */
+#submit-beach-walk-video {
+    height: 40em;
+    width: 100%;
+    border: 0;
+}
+
+@media (max-width: 767px) {
+#submit-beach-walk-video {
+    height: 20em;
+    width: 100%;
+    border: 0;
+}
+}
+/* --------------------submit-beach-walk-video-------------------- */
+
+/* --------------------background-colour-------------------- */
+body {
     background-color: #659DBD;
 }
-/* --------------------background-image-------------------- */
+/* --------------------background-colour-------------------- */
 
 /* --------------------card-------------------- */
 .card {

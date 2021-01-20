@@ -56,6 +56,9 @@ List of planned and included features:
 - woman-5.jpg - https://pixabay.com/photos/woman-senior-elderly-old-woman-5596179/ - Image by <a href="https://pixabay.com/users/zachtleven-9577367/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5596179">Zachtleven fotografie</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5596179">Pixabay</a>
 - calm-sea-water.jpg - https://pixabay.com/photos/nature-sea-waves-ocean-water-aqua-2384/ - Image by <a href="https://pixabay.com/users/publicdomainpictures-14/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2384">PublicDomainPictures</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2384">Pixabay</a>
 
+## Video
+- Beach video used royalty free from - https://www.youtube.com/watch?v=h_8F7xd9uhs - Licence details located here - https://developers.google.com/youtube/terms/api-services-terms-of-service
+
 ## Google Maps
 - Google Maps iframes taken directly from routes I created myself via - https://maps.google.com Licence details located here - https://cloud.google.com/maps-platform/terms/
 

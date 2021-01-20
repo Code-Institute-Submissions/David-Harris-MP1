@@ -15,7 +15,7 @@
     <title>Free Beach Walks</title>
   </head>
 <body>
-<wrapper class="d-flex flex-column" id="main-content-wrapper">
+<div class="d-flex flex-column">
 <!-- The static nav bar was taken from a template located here - https://getbootstrap.com/docs/4.5/examples/navbar-static/ - I then built into the code with my modifications-->
 <nav class="navbar navbar-expand-md navbar-dark bg-dark">
     <a class="navbar-brand" href="index.html">Free Beach Walks</a>
@@ -50,22 +50,33 @@
             <h2>Submit Detailed Route Information Here</h2>
         </div>
         <div class="form-group col-8 offset-2 text-center">
-            <input type="text" class="form-control" id="route-submission-first-name" placeholder="First Name:">
+            <input type="text" class="form-control" id="route-submission-first-name" placeholder="First Name:" required>
         </div>
         <div class="form-group col-8 offset-2 text-center">
-            <input type="text" class="form-control" id="route-submission-last-name" placeholder="Last Name:">
+            <input type="text" class="form-control" id="route-submission-last-name" placeholder="Last Name:" required>
         </div>
         <div class="form-group col-8 offset-2 text-center">
-            <input type="email" class="form-control" id="route-submission-email" placeholder="Email: Your email will be kept private.">
+            <input type="email" class="form-control" id="route-submission-email" placeholder="Email: Your email will be kept private." required>
         </div>
         <div class="form-group col-8 offset-2 text-center">
-            <textarea class="form-control" id="route-submission-text-area" placeholder="Route Details: Please include Google Maps route and parking location." rows="15"></textarea>
+            <textarea class="form-control" id="route-submission-text-area" placeholder="Route Details: Please include Google Maps route and parking location." rows="12" required></textarea>
         </div>
         <div class="form-group col-8 offset-2 text-center">
             <button class="btn btn-secondary">Submit Route</button>
         </div>
     </div>
 </form>
+
+<div class="col-md-8 offset-md-2 text-center" id="bonus-video-title">
+    <h2 class="pt-2 pb-2">Bonus Video</h2>
+    <p>Thank you for submitting your route. As a bonus, please enjoy this relaxing video of waves rolling over a beach.</p>
+</div>
+
+<div class="col-10 offset-1 pt-3 pb-5">
+    <div class="row">
+        <iframe id="submit-beach-walk-video" src="https://www.youtube-nocookie.com/embed/h_8F7xd9uhs" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
 </main>
 
 <footer class="bg-dark text-center">
@@ -77,9 +88,10 @@
         <p class="text-light">Follow us on social media!</p>
     </div>
 </footer>
-</wrapper>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
 </body>
 </html>
