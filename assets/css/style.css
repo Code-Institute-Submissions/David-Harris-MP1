@@ -21,7 +21,7 @@ body {
     text-decoration: underline;
 }
 
-#bonus-video-title h2 {
+#bonus-video-title {
     text-decoration: underline;
 }
 /* --------------------title-underline-------------------- */
@@ -44,16 +44,6 @@ body {
 }
 /* --------------------google-maps-parking-------------------- */
 
-/* --------------------flex-box-fix-bottom-footer-------------------- */
-body, wrapper {
-   min-height:100vh;
-}
-
-.flex-fill {
-   flex:1 1 auto;
-}
-/* --------------------flex-box-fix-bottom-footer-------------------- */
-
 /* --------------------footer-colour-------------------- */
 #social-media-icons i {
     color: #659DBD;
@@ -66,14 +56,13 @@ body, wrapper {
 /* --------------------footer-colour-------------------- */
 
 /* --------------------submit-route-form-------------------- */
-#submit-route-form h2 {
+#submit-route-form-title {
     text-decoration: underline;
-    margin-bottom: 0.5em;
 }
 
-#submit-route-form {
-    margin-top: 3em;
-    margin-bottom: 3em;
+#submit-route-form label {
+    text-decoration: underline;
+    text-emphasis: bold;
 }
 /* --------------------submit-route-form-------------------- */
 
