@@ -1,31 +1,39 @@
 # Milestone Project 1
-
-This is my first milestone project. The aim of this project is to build at least a three-page static frontend mobile-first responsive website. I will be demonstrating the skills I have learnt in HTML, CSS, Bootstrap while considering design concepts and best practices of UX friendly design.
+The aim of this project is to build at least a three-page static frontend mobile-first responsive website. I will be demonstrating the skills I have learnt in HTML, CSS, Bootstrap while considering design concepts and best practices of UX friendly design. This is the first website that I have ever built so I have chosen to keep the site design basic. This is to ensure that I can learn and grow my development skills as I build this website from scratch. This project will be the first time I have ever used an IDE to code and code with the HTML, CSS and used a front-end framework (Bootstrap 4) coding languages.
  
 ## UX
+I have built this website for the purpose of creating a local community and sharing of information. The idea for the website is to allow users a place to access and share route information for beach walks in the south coast of England.
 
-I've built this website for the purpose of education and sharing of free information. This is to allow users a place to access route information for beach walks in the south coast of England.
+- As a user I want a location to reference for information for beach walks and to share additional routes with other members of the community via route submission on the website.
+- As the website owner I want a website where I can share knowledge of beach walks, grow a community of likeminded people, allow for route submissions, allow room to grow a community of users with the view to expand and offer community group beach walks.
 
-- As a user I want a location to reference for information for beach walks.
-- As the business & website owner I want a location where I can share built up knowledge and grow a community of likeminded people to share information, build and grow larger to eventually organise group walks & activities.
-
-I have uploaded both the raw version of the wirefame that was created using the software "Balsamiq Wireframes" and a readable PDF version of the wireframes. These show the planning and origonal design before I started to code the website.
+### Wireframes
+I have uploaded both the raw version of the wireframe that was created using the software "Balsamiq Wireframes" and a readable PDF version of the wireframes. These show the planning and original design before I started to code the website.
 
 The documents can be via the downloaded via the links below:
 - [Wireframe .BMPR Format](https://github.com/davidhuk/David-Harris-MP1/raw/master/assets/Wireframes/david-harris-milestone-project-1-wireframes.bmpr)
-- [Wireframe .PDF Format](https://github.com/davidhuk/David-Harris-MP1/raw/master/assets/Wireframes/david-harris-milestone-project-1-wireframes.pdf)
+- [Wireframe .PDF Format](https://github.com/davidhuk/David-Harris-MP1/raw/master/assets/Wireframes/david-harris-milestone-project-1-wireframes.pdf)  
 
 ## Features
-
-This is my first ever official front-end development project. I didn't want to go overboard on technical design. I am still very early in my learning process and am putting this project together to go from a blank canvas to a completed front-end static website accessible via GitHub Pages.
+This is my first ever official front-end development project, first time using an IDE to code and first time using the languages of HTML, CSS & Bootstrap 4 (Frontend Framework). As this is the case, I designed the features to be somewhat basic in nature as I am still learning and growing my development coding skills.
 
 List of planned and included features:
  - Four separate web pages all linked together via hyperlinks.
  - Visible maps and route data for walks that is clear to read and understand for users.
  - Ability for users to submit their own suggested walks for review and submission to the website.
- 
-## Technologies Used
 
+### Existing Features
+- Feature 1 – “Google Maps”. The Google Maps integration gives the users a quick visual reference and guide of the route once the page has loaded without any user interaction. The maps are then directly linked to Google Maps website, this allows the users to click the maps on my website, load into Google Maps website directly and have full access to all Google Map features such as the ability to customise the route and save the route to their device.
+- Feature 2 – “User Route Submission”. The form that I have created will allow users to submit information about walks that can be submitted to the website owners to review. I wanted to code a pop-up of some sorts to give the user confirmation when they submitted the form but from my research you need to use custom JavaScript code to do this. I chose to not implement this feature due to not knowing JavaScript currently. I will be learning and coding with JavaScript on my second major project on the Code Institute course.
+- Feature 3 – “YouTube Video”. This feature allows the users to view and interact with a relaxing video of the sea and beach. I wanted this feature to be hidden by default and to show content after the user had successfully submitted a route. During my research on how to do this it would have to be coded with JavaScript. I chose not to implement this feature at this time and to leave JavaScript until my second project. 
+
+### Features Left to Implement
+- I would like to implement a pop up to give users visual confirmation that they have successfully submitted their route details via the form on the route submission page.
+- I would like to implement a chat forum onto the website. This would be to allow the community to send communication via the website, allow for group walks/meetups and to share content.
+- I would like to hide the YouTube video by default and then pop-up or become visible only when the user has successfully submitted a correct route via the route submission form.
+- I would like to implement a feature that allows users to automatically create reviews and add comments to the routes directly via the route details pages. Currently it is just static information from generic user reviews. From my research the best way to enable this feature is via JavaScript which I do not currently know and is out of scope for this first project. I have chosen to leave this feature out of the current version of the website.
+
+## Technologies Used
 - [HTML] https://en.wikipedia.org/wiki/HTML
     - This project uses HTML for the basic structure of the data.
 
@@ -33,12 +41,42 @@ List of planned and included features:
     - This project uses CSS for applying custom styles to the HTML.
 
 - [Bootstrap] https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework
-    - This project uses the Bootstrap framework to enable some handy tools to quickly build up and assist with a mobile first designed website.
+    - This project uses the Bootstrap framework to assist with build a mobile first full responsive website.
 
-# Media
+## Testing
 
-## Images
- All images that I used in this project were free to use. I aquired all the images for this project from from the website https://pixabay.com/ Full licence details can be found here - https://pixabay.com/service/license/
+### Features Testing
+- Feature 1 – “Google Maps”. I have tested the Google Maps API link on all browser sizes. I have coded to ensure that the maps take up the appropriate amount of space on both full-sized desktops and on mobile. I have used the Bootstrap 4 grid system to move the maps and text around to accommodate the smaller screens of mobile devices. I believe that it is a lot easier to for users to digest the map and route information.
+- Feature 2 – “User Route Submission”. I built the form to ensure that users were not able to submit with blank data or incorrectly formatted email address. I tested and confirmed across all device types that the form would not correctly submit until all fields had data and a correct email was entered. I tested and ensured that the correct error messaged were displaying to inform users of the root cause of the error and suggested data format to fix. I initially wanted to have this form have a pop-up of some sorts appear to show confirmation to the user on correct form submission. During the testing of this code, I was unable to get the feature working, it appeared that I would have to use JavaScript for this, and it was outside the scope of this first project.
+- Feature 3 – “YouTube Video”. I tested to ensure that the video displayed in the correct size across all device types using the Bootstrap 4 grid system. I tested on desktop to ensure that the video will play in the window of the browser and allow the user to load into full screen mode. I tested and confirmed that the video loads into full screen on mobile devices, this is done when the user presses play on the video. I am happy that the YouTube video is working as I planned it to work.
+
+### Different Device Testing
+- IPhone XR, IPhone 7. I have quick access to these mobiles and used them for the bulk of the testing. I constantly checked that the web pages and content loaded correctly and appeared in an easy-to-read format that give good use for users of the website.
+- Various Android mobiles, tablets. I got some close friends and family members with various types of Android devices to load the website and test. They all tested and reported that the website loaded quickly, all content appears fine, appears in an easy to read and understand state and all links and features worked without errors … aka site redirection to Google Maps, Social Media links and loading the YouTube video in full screen mode.
+- Desktop PC with 27-inch monitor @ 1920 x 1080 resolution. I used this screen size throughout the coding process as it was the main monitor that used when building the website. At all times I tested and ensured that the content appeared correct on the page.
+- Laptop 15-inch monitor @1920 x 1080p resolution. I used this screen for user testing. A few friends and family use laptops with this size. The website appears to function fine on this type of device and resolution.
+- Google Chrome Developer Tools. I used this tool to emulate different device sizes. I used this tool constantly during building, testing and after the website was completed. This tool was very handy to test code was working correctly, quickly.
+- Responsinator. I used this tool to emulate different device sizes. I used this tool constantly during building, testing and after the website was completed. This tool was very handy to test code was working correctly, quickly.
+
+### Testing Tools Used
+- W3C Markup Validation Service – https://validator.w3.org/. I used this website to test, validate, highlight, and fix errors in my HTML code. This tool highlighted and recommended best practices that I had missed along the way. Examples of this for this first project would be, missing “Alt Tags” on images, missing additional information for screen readers, using older CSS & Bootstrap code that has been updated, sourced from third-party websites during my research.
+- W3C CSS Validation Service - http://jigsaw.w3.org/css-validator/. I used this website to test, validate, highlight, and fix errors in my CSS code. To be honest I did not find many errors with my CSS code as I spent a large portion of this project trying to learn and implement Bootstrap 4 classes straight into the HTML code. The CSS that I did use passed the validation checks without errors.
+- Google Lighthouse - https://developers.google.com/web/tools/lighthouse. I used this tool a lot during the testing of all the webpages, both in full desktop mode and mobile mode. I found this tool useful to not only highlight errors with code but to suggest best practices for improving the code that I had already created to ensure that it meets the standards and best practices for production websites. An example of this is the tool suggested changes to include code to boost scores for SEO and performance, this then lead me on to learn more about what SEO is and why it is an important thing to configure websites to get better scores.
+- Responsinator - http://www.responsinator.com/. I used this website a lot to quickly reference and see my webpages at a glace on multiple devices with various rotations. I found this tool great to ensure the Bootstrap 4 classes were correctly applying and performing as intended to ensure that my web pages were constantly full responsive across all devices. An example of an issue I found during testing was that my footer was not floating to the bottom of the page on certain devices and certain page orientations where at first glance on a device or Google Chrome developer tools all code and web pages appeared to function correctly.
+
+### Errors During Testing
+- Footer. Throughout the building of the website, I was unable to get the footer to always push to the bottom of the page. I did some research and found a method by using “flex-box” and wrapping my main content and forcing the footer to the bottom. I found this worked but managed to remove some CSS by accident during testing and cleaning of code which led to the footer breaking again during device testing. I investigated, restored the CSS, tested, and confirmed the footer was working as I have intended across all device types.
+- Pictures on index.html. I initially struggled to get 3 x 3 pictures lined up in a grid, then to scale the images all maintaining the same size across all device types. I struggled a lot as I was trying to use purely “auto/auto” for the scale, from my research this seemed to be a good method to ensure that the pictures auto scale with different device sizes. I found that this worked for the resolution scaling but caused the images to appear at different sizes and locations on different devices. Upon speaking with my mentor, it was advised to hard code “max height/width” where possible to ensure consistency. I did further research and implemented a card system installed in the Bootstrap 4 grid system, then scaled the images to full on cards. This fixed my issue and made the images resolution scale correctly across all device sizes and ensured that the images all appear the same size and location on all devices. Overall, I am not sure if I am 100% happy with this implementation of card/grid/scaling, but as it is my first-time using HTML/CSS/Bootstrap 4 I am happy with the results. I will be researching different way for handling imaged for my next major project with the view to see if I can learn a different & potentially a better or easier way to code this.
+
+## Deployment
+As this is a static frontend only website, I have decided to deploy the website via GitHub Pages. My website can be accessed here - https://davidhuk.github.io/David-Harris-MP1/. I followed the GitHub pages deployment guide referenced here - https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site. There are no differences between the code in my development environment and the fully deployed code.
+
+If you wish access and run my code in your own environment, please feel free to download a copy of the code and files located on my GitHub repository located here - https://github.com/davidhuk/David-Harris-MP1. This can be done by loading to the website and then pressing on the “code” green button then downloading via your preferred method “Clone / Open with GitHub Desktop / Download ZIP”. Once you have downloaded the files you will need to load the code into your preferred IDE (Integrated Development Environment) such as Microsoft Visual Studio or Sublime Text.
+
+## Media
+
+### Images
+ All images that I used in this project were free to use. I acquired all the images for this project from the website https://pixabay.com/ Full licence details can be found here - https://pixabay.com/service/license/
 - beach-water-still.jpg - https://pixabay.com/photos/dawlish-warren-dawlish-devon-sand-198118/ - Image by <a href="https://pixabay.com/users/inspiredimages-57296/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=198118">InspiredImages</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=198118">Pixabay</a>
 - beach-pier-sunset.jpg - https://pixabay.com/photos/jetty-pier-sea-sunset-dusk-dawn-593401/ - Image by <a href="https://pixabay.com/users/republica-24347/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=593401">Republica</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=593401">Pixabay</a>
 - beach-sunset.jpg - https://pixabay.com/photos/california-sunset-dusk-sky-clouds-1751455/ - Image by <a href="https://pixabay.com/users/12019-12019/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1751455">David Mark</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1751455">Pixabay</a>
@@ -56,18 +94,23 @@ List of planned and included features:
 - woman-5.jpg - https://pixabay.com/photos/woman-senior-elderly-old-woman-5596179/ - Image by <a href="https://pixabay.com/users/zachtleven-9577367/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5596179">Zachtleven fotografie</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5596179">Pixabay</a>
 - calm-sea-water.jpg - https://pixabay.com/photos/nature-sea-waves-ocean-water-aqua-2384/ - Image by <a href="https://pixabay.com/users/publicdomainpictures-14/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2384">PublicDomainPictures</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2384">Pixabay</a>
 
-## Video
+### Video
 - Beach video used royalty free from - https://www.youtube.com/watch?v=h_8F7xd9uhs - Licence details located here - https://developers.google.com/youtube/terms/api-services-terms-of-service
 
-## Google Maps
+### Google Maps
 - Google Maps iframes taken directly from routes I created myself via - https://maps.google.com Licence details located here - https://cloud.google.com/maps-platform/terms/
 
-## Favicon
-- Favicon.ico created by myself via this free website - https://favicon.io/favicon-generator/ Terms of use located here - https://favicon.io/terms-of-use/
+### Favicon
+- Favicon.ico was created by me via this free website - https://favicon.io/favicon-generator/ Terms of use located here - https://favicon.io/terms-of-use/
 
-## Font
+### Font
 - Nunito font taken directly via Google Fonts - https://fonts.google.com/specimen/Nunito Licence details located here - https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
 
-## Bootstrap Templates
-- Nav bar template located here - https://getbootstrap.com/docs/4.5/examples/navbar-static/
-- Carousel template located here - https://getbootstrap.com/docs/4.5/examples/carousel/
+### Bootstrap Templates
+- Static navbar template located here - https://getbootstrap.com/docs/4.5/examples/navbar-static/
+- Flex Fill code reference located here - https://medium.com/@mschenk22/bootstrap-4-footer-at-bottom-not-sticky-dynamic-footer-height-b37ccec837e2
+- Horizontal inline form reference located here - https://speedysense.com/bootstrap-vertical-horizontal-inline-forms-example/ & https://speedysense.com/demo/bootstrap3-form/horizontal-form-layout.html
+
+## Conclusion
+Overall, my thoughts on working through this first project are very positive but slightly mixed. This is because the more I learnt about coding languages, frameworks, design concepts, the more I realised the initial idea I had could have been a lot better, but at the start I chose to not over complicate it by design. I guess it is a chicken and egg situation as I could not have learnt this lesson without first going through the project and growing my knowledge and skills.
+I have very much enjoyed the challenge of coding and testing. I have hit many walls on this project and have been forced to research, grow skills, and learn a lot to overcome the problems, I found this very rewarding. This was my first time building a website from scratch using GitHub, GitPod, HTML, CSS, Bootstrap 4 with the view to build a mobile-first responsive website. Apart from the overall design being basic I am very happy to have produced a website that is functional and loads on all sized browsers and devices.
