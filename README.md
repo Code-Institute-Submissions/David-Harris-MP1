@@ -1,6 +1,26 @@
 <h1 align="center">David Harris - Milestone Project 1</h1>
 
-[Click here to view my live project website.]( https://davidhuk.github.io/David-Harris-MP1/)
+[Click here to view my live project]( https://davidhuk.github.io/David-Harris-MP1/)
+
+## Completed Project Screenshots (Desktop View)
+
+#### Home Page
+<img src="assets/images/completed-home-page-screenshot.JPG">
+
+#### Bournemouth Route
+<img src="assets/images/completed-bournemouth-page-screenshot.JPG">
+
+#### Portsmouth Route
+<img src="assets/images/completed-portsmouth-page-screenshot.JPG">
+
+#### Brighton Route
+<img src="assets/images/completed-brighton-page-screenshot.JPG">
+
+#### Submit Beach Walk Part 1
+<img src="assets/images/completed-submit-beach-pt1-page-screenshot.JPG">
+
+#### Submit Beach Walk Part 2
+<img src="assets/images/completed-submit-beach-pt2-page-screenshot.JPG">
 
 The aim of this project is to build at least a three-page static frontend mobile-first responsive website. I will be demonstrating the skills I have learnt in HTML, CSS, Bootstrap while considering design concepts and best practices of UX friendly design. This is the first website that I have ever built so I have chosen to keep the site design basic. This is to ensure that I can learn and grow my development skills as I build this website from scratch. This project will be the first time I have ever used an IDE to code and code with the HTML, CSS and used a front-end framework (Bootstrap 4) coding languages.
  
