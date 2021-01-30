@@ -17,6 +17,10 @@ body {font-family: 'Nunito', sans-serif;}
 #submit-route-form-title {text-decoration: underline;}
 /* --------------------title-underline-------------------- */
 
+/* --------------------home-page-paragraph-------------------- */
+#home-page-paragraph {font-size: 115%}
+/* --------------------home-page-paragraph-------------------- */
+
 /* --------------------google-maps-route-------------------- */
 #goole-maps-route-detail iframe {
     width: 100%;
